@@ -10,7 +10,7 @@ github_url      = "https://raw.githubusercontent.com/#{github_username}/#{github
 # Server Configuration
 server_domain   = "clearc2.com"
 hostname        = "redis1.$server_domain"
-virtualBoxName  = "Redis1"
+virtualBoxName  = "Redis1.$server_domain"
 
 # Set a local private network IP address.
 # See http://en.wikipedia.org/wiki/Private_network for explanation
